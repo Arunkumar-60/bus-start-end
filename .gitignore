@@ -1,0 +1,29 @@
+# environmental
+.venv
+.venv/
+venv/
+env/
+
+# cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# local database
+db.sqlite3
+
+# migration caches
+bookings/migrations/*.py
+!bookings/migrations/__init__.py
+
+#IDE cache and os reated cache
+*.vscode/
+*.idea/
+.DS_Store
+
+# temp files
+*.log
+*.out
+*.pid
+
